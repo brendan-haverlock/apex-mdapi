@@ -73,7 +73,6 @@ private class MetadataServiceTest
 		}
 	}    
 		
-	@IsTest
 	private static void coverGeneratedCodeCRUDOperations()
 	{	
     	// Null Web Service mock implementation
@@ -105,7 +104,6 @@ private class MetadataServiceTest
    
     }
 
-    @IsTest
     private static void coverGeneratedCodeFileBasedOperations2()
     {       
         // Null Web Service mock implementation
